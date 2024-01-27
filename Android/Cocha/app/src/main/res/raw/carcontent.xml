@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="coches">
+        <item>
+            <modelo>Ferrari 488 Pista</modelo>
+            <foto>https://www.km77.com/media/fotos/ferrari_488_2015_pista_6729_1.jpg</foto>
+            <ano>2019</ano>
+            <plazas>2</plazas>
+            <potencia>720</potencia>
+            <precioHora>160</precioHora>
+            <motor>V8</motor>
+        </item>
+        <item>
+            <modelo>Ferrari 812 Superfast</modelo>
+            <foto>https://www.km77.com/media/fotos/ferrari_812_2017_812_superfast_6344_4.jpg</foto>
+            <ano>2016</ano>
+            <plazas>2</plazas>
+            <potencia>820</potencia>
+            <precioHora>180</precioHora>
+            <motor>V12</motor>
+        </item>
+        <item>
+            <modelo>McLaren 765LT Coupe</modelo>
+            <foto>https://www.km77.com/media/fotos/mclaren_super_series_2017_765lt_7533_2.jpg</foto>
+            <ano>2021</ano>
+            <plazas>2</plazas>
+            <potencia>765</potencia>
+            <precioHora>220</precioHora>
+            <motor>V8</motor>
+        </item>
+        <item>
+            <modelo>BMW M8 Comp</modelo>
+            <foto>https://cdn.autobild.es/sites/navi.axelspringer.es/public/media/image/2023/03/bmw-m8-gran-coupe-g-power-2981050.jpg?tf=3840x</foto>
+            <ano>2022</ano>
+            <plazas>2</plazas>
+            <potencia>625</potencia>
+            <precioHora>140</precioHora>
+            <motor>V8</motor>
+        </item>
+        <item>
+            <modelo>Lamborghini Aventador SV</modelo>
+            <foto>https://cdn.autobild.es/sites/navi.axelspringer.es/public/media/image/2015/12/492459-lamborghini-aventador-sv-wheelsandmore-frontal-amarillo.jpg?tf=1200x</foto>
+            <ano>2015</ano>
+            <plazas>2</plazas>
+            <potencia>750</potencia>
+            <precioHora>200</precioHora>
+            <motor>V12</motor>
+        </item>
+        <item>
+            <modelo>BMW M3 CS</modelo>
+            <foto>https://www.km77.com/media/fotos/bmw_serie_3_2019_m3_cs_8469_1.jpg</foto>
+            <ano>2023</ano>
+            <plazas>4</plazas>
+            <potencia>551</potencia>
+            <precioHora>140</precioHora>
+            <motor>I6</motor>
+        </item>
+        <item>
+            <modelo>KTM X-BOW</modelo>
+            <foto>https://www.km77.com/media/fotos/ktm_x_bow_2009_xbow_3173_1.jpg</foto>
+            <ano>2012</ano>
+            <plazas>2</plazas>
+            <potencia>241</potencia>
+            <precioHora>140</precioHora>
+            <motor>I4</motor>
+        </item>
+        <item>
+            <modelo>Rolls Royce Ghost</modelo>
+            <foto>https://www.km77.com/media/fotos/rolls_royce_ghost_2021_7715_1.jpg</foto>
+            <ano>2020</ano>
+            <plazas>5</plazas>
+            <potencia>571</potencia>
+            <precioHora>180</precioHora>
+            <motor>V12</motor>
+        </item>
+        <item>
+            <modelo>Mercedes G63 Brabus</modelo>
+            <foto>https://panacrypto.com/wp-content/uploads/2022/10/MBBrabus800.webp</foto>
+            <ano>2022</ano>
+            <plazas>5</plazas>
+            <potencia>900</potencia>
+            <precioHora>180</precioHora>
+            <motor>V8</motor>
+        </item>
+    </string-array>
+</resources>

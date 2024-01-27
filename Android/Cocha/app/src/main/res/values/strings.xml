@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Cocha</string>
+    <string name="nombre_app">Cocha</string>
+    <string name="descripcion_app">Luxury cars rental</string>
+
+    <!--Nombres-->
+    <string name="menu">Menu</string>
+    <string name="coches_disponibles">Cars available</string>
+    <string name="mis_alquileres">My rentals</string>
+    <string name="tramite_alquiler">Rental procedure</string>
+
+    <!--LogIn-->
+    <string name="texto_usuario">User</string>
+    <string name="texto_contrasena">Password</string>
+    <string name="boton_login">LogIN</string>
+    <string name="boton_logout">LogOUT</string>
+    <string name="noticias">What`s new</string>
+    <string name="mensaje_rellena_campos">Please, fill the fields</string>
+    <string name="bienvenido">Welcome back</string>
+
+    <!--Menu-->
+    <string name="salida_logout">Press LOGOUT button</string>
+
+    <!--Noticias-->
+    <string name="url_noticias">https://www.goodwood.com/grr/road/news/2022/5/the-16-best-british-supercars/</string>
+
+    <!--CochesDisponibles-->
+    <string name="ano">Year: </string>
+    <string name="plazas">Seats: </string>
+    <string name="potencia">Power: </string>
+    <string name="precio_hora">Price per hour: </string>
+    <string name="motor">Engine: </string>
+    <string name="euro">€</string>
+    <string name="alquilar">Rent</string>
+
+    <!--TramiteAlquiler-->
+    <string name="back_again">Press back again to exit</string>
+    <string name="premium_si_no">Premium service:</string>
+    <string name="premium_1">Gold</string>
+    <string name="premium_2">Diamond</string>
+    <string name="premium_3">Platinum</string>
+    <string name="horas">Hours:</string>
+    <string name="precio_final">Total:</string>
+    <string name="calcular">Calculate</string>
+    <string name="cero_no">Zero is not permited</string>
+    <string name="mensaje_boton_calc">Press the Calculate button</string>
+
+    <!--MisAlquileres-->
+    <string name="cancelar">Cancel</string>
+    <string name="no">None</string>
+    <string name="no_coches">You do not have any rented car</string>
+    <string name="pulsar_cancelar">Press again to cancel</string>
+    <string name="cancelado">Booking cancelled successfully</string>
+</resources>

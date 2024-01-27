@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cocha</string>
+    <string name="nombre_app">Cocha</string>
+    <string name="descripcion_app">Alquiler de coches de lujo</string>
+    <string name="menu">Menú</string>
+    <string name="coches_disponibles">Coches disponibles</string>
+    <string name="mis_alquileres">Mis alquileres</string>
+    <string name="tramite_alquiler">Trámite Alquiler</string>
+    <string name="texto_usuario">Usuario</string>
+    <string name="texto_contrasena">Contraseña</string>
+    <string name="boton_login">Iniciar sesión</string>
+    <string name="boton_logout">Salir</string>
+    <string name="noticias">Noticias</string>
+    <string name="mensaje_rellena_campos">Por favor, completa los campos</string>
+    <string name="bienvenido">"Bienvenido de nuevo"</string>
+    <string name="salida_logout">Pulsa el botón de SALIR</string>
+    <string name="url_noticias">https://motor.elpais.com/supercoches/</string>
+    <string name="ano">"Año: "</string>
+    <string name="plazas">"Plazas: "</string>
+    <string name="potencia">"Potencia: "</string>
+    <string name="precio_hora">Precio hora:</string>
+    <string name="motor">Motor</string>
+    <string name="euro">€</string>
+    <string name="alquilar">Alquilar</string>
+    <string name="back_again">Pulsa de nuevo para salir</string>
+    <string name="premium_si_no">"Servicio premium: "</string>
+    <string name="premium_1">Oro</string>
+    <string name="premium_2">Diamante</string>
+    <string name="premium_3">Platino</string>
+    <string name="horas">"Horas: "</string>
+    <string name="precio_final">"Total: "</string>
+    <string name="calcular">Calcular</string>
+    <string name="cero_no">No se permite cero</string>
+    <string name="mensaje_boton_calc">Pulsa el botón de Calcular</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="no">Ninguno</string>
+    <string name="no_coches">No tienes ningún coche alquilado</string>
+    <string name="pulsar_cancelar">Pulsa de nuevo para cancelar</string>
+    <string name="cancelado">Reserva cancelada exitosamente</string>
+</resources>

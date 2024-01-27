@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gris_oscuro_fondo"
+    android:orientation="vertical">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="290dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gris_fondo">
+
+        <TextView
+            android:id="@+id/txvEuro2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/euro"
+            android:textColor="@color/naranja"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintStart_toEndOf="@+id/txvTotal"
+            app:layout_constraintTop_toBottomOf="@+id/btnCalc" />
+
+        <TextView
+            android:id="@+id/txvModelo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/naranja"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/premium_si_no"
+            android:textColor="@color/naranja"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txvPF" />
+
+        <RadioGroup
+            android:id="@+id/btng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/switch1">
+
+            <RadioButton
+                android:id="@+id/rbtn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="12dp"
+                android:text="@string/premium_1"
+                android:textColor="@color/naranja" />
+
+            <RadioButton
+                android:id="@+id/rbtn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/premium_2"
+                android:textColor="@color/naranja" />
+
+            <RadioButton
+                android:id="@+id/rbtn3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/premium_3"
+                android:textColor="@color/naranja" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/txvPPH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/precio_hora"
+            android:textColor="@color/naranja"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txvModelo" />
+
+        <TextView
+            android:id="@+id/txvPPH2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/naranja"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/txvPPH"
+            app:layout_constraintTop_toBottomOf="@+id/txvModelo" />
+
+        <TextView
+            android:id="@+id/txvEuro1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/euro"
+            android:textColor="@color/naranja"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/txvPPH2"
+            app:layout_constraintTop_toBottomOf="@+id/txvModelo" />
+
+        <EditText
+            android:id="@+id/txvNhoras"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:ems="4"
+            android:inputType="number"
+            android:textColor="@color/naranja"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/txvHoras"
+            app:layout_constraintTop_toBottomOf="@+id/txvPPH2" />
+
+        <TextView
+            android:id="@+id/txvHoras"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="32dp"
+            android:text="@string/horas"
+            android:textColor="@color/naranja"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txvPPH" />
+
+        <TextView
+            android:id="@+id/txvPF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="19dp"
+            android:text="@string/precio_final"
+            android:textColor="@color/naranja"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txvNhoras" />
+
+        <TextView
+            android:id="@+id/txvTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:textColor="@color/naranja"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/txvPF"
+            app:layout_constraintTop_toBottomOf="@+id/btnCalc" />
+
+        <Button
+            android:id="@+id/btnAlquilar"
+            android:layout_width="128dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="32dp"
+            android:background="@color/naranja"
+            android:text="@string/alquilar"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/btnCalc"
+            android:layout_width="85dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/naranja"
+            android:text="@string/calcular"
+            android:textColor="@color/black"
+            android:textStyle="bold|italic"
+            app:layout_constraintStart_toEndOf="@+id/txvNhoras"
+            app:layout_constraintTop_toBottomOf="@+id/txvPPH" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

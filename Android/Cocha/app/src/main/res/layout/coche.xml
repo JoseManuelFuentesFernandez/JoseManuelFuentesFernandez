@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/gris_oscuro_fondo">
+
+    <TextView
+        android:id="@+id/txvAno2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/naranja"
+        app:layout_constraintStart_toEndOf="@+id/txvAno"
+        app:layout_constraintTop_toBottomOf="@+id/txvPH2" />
+
+    <TextView
+        android:id="@+id/txvPlazas2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/naranja"
+        app:layout_constraintStart_toEndOf="@+id/txvPlazas"
+        app:layout_constraintTop_toBottomOf="@+id/txvAno2" />
+
+    <TextView
+        android:id="@+id/txvPotencia2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/naranja"
+        app:layout_constraintStart_toEndOf="@+id/txvPotencia"
+        app:layout_constraintTop_toBottomOf="@+id/txvPlazas2" />
+
+    <TextView
+        android:id="@+id/txvMotor2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/naranja"
+        app:layout_constraintStart_toEndOf="@+id/txvMotor"
+        app:layout_constraintTop_toBottomOf="@+id/txvPotencia2" />
+
+    <ImageView
+        android:id="@+id/imgvw"
+        android:layout_width="190dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/txvPH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/precio_hora"
+        android:textColor="@color/naranja"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imgvw"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txvEuro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/euro"
+        android:textColor="@color/naranja"
+        app:layout_constraintStart_toEndOf="@+id/txvPH2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txvModelo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/naranja"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgvw" />
+
+    <TextView
+        android:id="@+id/txvPH2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/naranja"
+        app:layout_constraintStart_toEndOf="@+id/txvPH"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txvAno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/ano"
+        android:textColor="@color/naranja"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imgvw"
+        app:layout_constraintTop_toBottomOf="@+id/txvPH" />
+
+    <TextView
+        android:id="@+id/txvPlazas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/plazas"
+        android:textColor="@color/naranja"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imgvw"
+        app:layout_constraintTop_toBottomOf="@+id/txvAno" />
+
+    <TextView
+        android:id="@+id/txvPotencia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/potencia"
+        android:textColor="@color/naranja"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imgvw"
+        app:layout_constraintTop_toBottomOf="@+id/txvPlazas" />
+
+    <TextView
+        android:id="@+id/txvMotor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/motor"
+        android:textColor="@color/naranja"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imgvw"
+        app:layout_constraintTop_toBottomOf="@+id/txvPotencia" />
+
+    <Button
+        android:id="@+id/btnAlq"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/naranja"
+        android:text="@string/alquilar"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/gris_fondo"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/btnAlq"
+        tools:layout_editor_absoluteX="60dp"></LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
