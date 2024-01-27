@@ -1,0 +1,33 @@
+﻿<Window x:Class="CentroMedico.Paciente.NuevoPaciente"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CentroMedico.Paciente"
+        mc:Ignorable="d"
+        Title="NuevoPaciente" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="lblNombre" Content="Nombre:" HorizontalAlignment="Left" Margin="150,86,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txbNombre" HorizontalAlignment="Left" Margin="262,89,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="162"/>
+
+        <Label x:Name="lblApe" Content="Apellidos:" HorizontalAlignment="Left" Margin="150,116,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txbApe" HorizontalAlignment="Left" Margin="262,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="162"/>
+
+        <Label x:Name="lblDir" Content="Dirección:" HorizontalAlignment="Left" Margin="150,146,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txbDir" HorizontalAlignment="Left" Margin="262,149,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="162"/>
+
+        <Label x:Name="lblDni" Content="DNI:" HorizontalAlignment="Left" Margin="150,176,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txbDni" HorizontalAlignment="Left" Margin="262,179,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="162"/>
+
+        <Label x:Name="lblTel" Content="Teléfono:" HorizontalAlignment="Left" Margin="150,206,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txbTel" HorizontalAlignment="Left" Margin="262,210,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="162"/>
+
+        <Label x:Name="lblIdCom" Content="Nº ID compañía:" HorizontalAlignment="Left" Margin="150,236,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txbIdCom" HorizontalAlignment="Left" Margin="262,239,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="162"/>
+
+        <Label x:Name="lblEmail" Content="Email:" HorizontalAlignment="Left" Margin="150,266,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txbEmail" HorizontalAlignment="Left" Margin="262,269,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="162"/>
+
+        <Button x:Name="btnAnadir" Content="Añadir" HorizontalAlignment="Left" Margin="304,318,0,0" VerticalAlignment="Top" Width="78" Click="btnAnadir_Click"/>
+    </Grid>
+</Window>

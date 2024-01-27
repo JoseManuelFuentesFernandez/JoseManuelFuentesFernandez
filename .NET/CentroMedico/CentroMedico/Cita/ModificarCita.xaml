@@ -1,0 +1,26 @@
+﻿<Window x:Class="CentroMedico.Cita.ModificarCita"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CentroMedico.Cita"
+        mc:Ignorable="d"
+        Title="ModificarCita" Height="450" Width="800">
+    <Grid>
+        <Label Content="Paciente (DNI o Apellidos)" HorizontalAlignment="Left" Margin="235,33,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txbBusq" IsEnabled="True" HorizontalAlignment="Left" Margin="241,59,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="190" TextChanged="txbBusq_TextChanged"/>
+        <Button x:Name="btnBusq" IsEnabled="True" Content="Buscar" HorizontalAlignment="Left" Margin="439,57,0,0" VerticalAlignment="Top" Width="56" Click="btnBusq_Click"/>
+        <Label x:Name="lblTick" Visibility="Hidden" Content="✓" Foreground="Green" HorizontalAlignment="Left" Margin="500,54,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.421,-0.114" FontWeight="Bold"/>
+
+        <DataGrid x:Name="dtgCitas" Margin="14,102,14,152" IsEnabled="False" SelectionChanged="dtgCitas_SelectionChanged"/>
+
+        <Label Content="Fecha:" HorizontalAlignment="Left" Margin="118,302,0,0" VerticalAlignment="Top"/>
+        <DatePicker x:Name="dtPck" HorizontalAlignment="Left" Margin="164,303,0,0" VerticalAlignment="Top" IsEnabled="False" FirstDayOfWeek="Monday" SelectedDateChanged="dtPck_SelectedDateChanged"/>
+        <Label Content="Hora: " HorizontalAlignment="Left" Margin="341,300,0,0" VerticalAlignment="Top"/>
+        <ComboBox IsEnabled="False" x:Name="cmbHorasDisp" HorizontalAlignment="Left" Margin="392,302,0,0" VerticalAlignment="Top" Width="73"/>
+        <Label Content="Anulada: " HorizontalAlignment="Left" Margin="492,299,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chbAn" IsEnabled="False" HorizontalAlignment="Left" Margin="552,305,0,0" VerticalAlignment="Top"/>
+        
+        <Button x:Name="btnModificarCita" IsEnabled="False" Content="Modificar Cita" HorizontalAlignment="Center" VerticalAlignment="Top" Width="120" Click="btnModificarCita_Click" Height="24" Margin="0,358,0,0"/>
+    </Grid>
+</Window>

@@ -1,0 +1,24 @@
+﻿<Window x:Class="CentroMedico.Especialidad.ModificarEspecialidad"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CentroMedico.Especialidad"
+        mc:Ignorable="d"
+        Title="ModificarEspecialidad" Height="450" Width="800">
+    <Grid>
+        <ComboBox x:Name="cmbEsp" HorizontalAlignment="Left" Margin="91,112,0,0" VerticalAlignment="Top" Width="227" SelectionChanged="ComboBox_SelectionChanged"/>
+        <Label Content="Especialidades:" HorizontalAlignment="Left" Margin="90,86,0,0" VerticalAlignment="Top"/>
+
+        <Label x:Name="lblNombre" Content="Nombre:" HorizontalAlignment="Left" Margin="400,108,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txbNombre" HorizontalAlignment="Left" Margin="475,112,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="211"/>
+
+        <Label x:Name="lblDesc" Content="Descripción:" HorizontalAlignment="Left" Margin="400,149,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txbDesc" HorizontalAlignment="Left" Margin="475,153,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="211" Height="51"/>
+
+        <Label x:Name="lblBaja" Content="Baja:" HorizontalAlignment="Left" Margin="431,218,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="chbBaja" HorizontalAlignment="Left" Margin="475,223,0,0" VerticalAlignment="Top"/>
+        
+        <Button x:Name="btnMod" Content="Modificar" HorizontalAlignment="Left" Margin="540,289,0,0" VerticalAlignment="Top" Height="28" Width="82" Click="btnMod_Click"/>
+    </Grid>
+</Window>
